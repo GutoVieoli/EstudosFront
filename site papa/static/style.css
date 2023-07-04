@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.h {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    background-image: url("../styles/minecraft.png");
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    height: 55vh;
+}
+
+.h__oi{
+    color:#ff5100;
+    font-weight: 700;
+}
+
+.h__paragrafo{
+    font-weight: 700;
+    font-size: 52px;
+}
+
+.sobre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+    padding: 0 10% 0 10%;
+    margin-top: 3%;
+    background-color: #f7f7f7;
+}
+
+.sobre__img{
+    width: 40%;
+}
+
+.sobre__conteudo{
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 35%;
+    font-weight: 600;
+}
+
+.sobre__conteudo__laranjinha{
+    color: #ff5100;
+    font-size: 48px;
+}
+
+.sobre__conteudo__titulo{
+    font-size: 42px;
+}
+
+.sobre__conteudo__paragrafo{
+    font-size: 15px;
+    line-height: 30px;
+}
