@@ -12,6 +12,8 @@
     justify-content: center;
     gap: 25px;
     background-image: url("../styles/minecraft.png");
+    background-repeat: no-repeat;
+    background-size: cover;
     color: #FFFFFF;
     font-family: 'Montserrat', sans-serif;
     height: 55vh;
@@ -32,8 +34,9 @@
     justify-content: center;
     align-items: center;
     gap: 5%;
-    padding: 0 10% 0 10%;
+    padding: 10px 10% 10px 10%;
     margin-top: 3%;
+    margin-bottom: 3%;
     background-color: #f7f7f7;
 }
 
@@ -50,11 +53,6 @@
     font-weight: 600;
 }
 
-.sobre__conteudo__laranjinha{
-    color: #ff5100;
-    font-size: 48px;
-}
-
 .sobre__conteudo__titulo{
     font-size: 42px;
 }
@@ -62,4 +60,151 @@
 .sobre__conteudo__paragrafo{
     font-size: 15px;
     line-height: 30px;
+}
+
+.laranjinha{
+    color: #ff5100;
+    font-size: 48px;
+}
+
+.linkGit{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 35px;
+    background-image: url("../styles/fundoGit.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #FFFFFF;
+    padding: 5% ;
+    margin: 0 5%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.linkGit__titulo{
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.linkGit__link{
+    text-decoration: none;
+    color: #ffffff;
+    border: 2px solid #FFFFFF;
+    padding: 12px;
+}
+
+.linkGit__link:hover{
+    color: #0f0f0f;
+    background-color: #FFFFFF;
+}
+
+.interesses{
+    display: flex;
+    padding: 5vh 5%;
+    border-top: 5vh solid #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f7f7f7;
+    gap: 10%;
+}
+
+.interesses__intro{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 40%;
+}
+
+.interesses__intro__titulo{
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.interesses__intro__paragrafo{
+    color: #a0a0a0;
+}
+
+
+.interesses__box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 35px;
+    padding-bottom: 35px;
+    border-bottom: 1px solid #d3d3d3;
+}
+
+.interesses__descrição{
+    width: 42%;
+    margin-right: 8%;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.interesses__descrição__box{
+    display: flex;
+    flex-direction: column;
+}
+
+.interesse__descrição__img{
+    width: 85px;
+    height: 85px;
+}
+
+.interesses__descrição__titulo{
+    font-size: 24px;
+}
+
+.interesses__descrição__paragrafo{
+    color: #a0a0a0;
+    font-size: 15px;
+    line-height: 30px;
+}
+
+.infoP{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5vh 5%;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f7f7f7;
+}
+
+.infoP__box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.infoP__box__escrito{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.infoP__imagem{
+    width: 10vw;
+}
+
+.infoP__titulo{
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.infoP__desc{
+    font-weight: 500;
+    color: #a0a0a0;
+}
+
+footer{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: #a0a0a0;
+    border-top: 1px solid #d3d3d3;
+    padding: 50px;
+    text-align: center;
 }
